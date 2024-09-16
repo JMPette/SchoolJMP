@@ -49,6 +49,7 @@ Powershell 7
 Visual Studio Code
 VLC
 
+```
 Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
 
 choco install powershell-core git vscode putty greenshot notepadplusplus winscp 7zip paint.net windirstat zoom sudo vmrc vmware-horizon-client github-desktop obs-studio docker-desktop google-drive-file-stream googlechrome curl powertoys -y
@@ -61,5 +62,5 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension GitHub.copilot
 code --install-extension GitHub.vscode-pull-request-github
-
+```
 ![alt text](image.png)
