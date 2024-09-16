@@ -51,10 +51,11 @@ VLC
 
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
-
+```
+```
 choco install powershell-core git vscode putty greenshot notepadplusplus winscp 7zip paint.net windirstat zoom sudo vmrc vmware-horizon-client github-desktop obs-studio docker-desktop google-drive-file-stream googlechrome curl powertoys -y
 ```
-```
+
 Usefull VSCode addons
 ```
 code --install-extension ms-vscode.powershell
